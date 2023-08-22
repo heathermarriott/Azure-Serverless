@@ -18,7 +18,7 @@ def is_prime(k:  int) -> Tuple[bool, str]:
         for i in range(3, int(k**0.5 + 1), 2):
             if k % i == 0:
                 return False, f"{k} is not a prime number, it's divisible by {i}.***"
-    return True, f"Yes, {k} is a prime number."
+    return True, f"Yes, {k} is a prime number. **** Painless Programming was here "
 
 
 def n_primes(n: int) -> List[int]:
