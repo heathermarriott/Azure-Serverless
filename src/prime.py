@@ -14,10 +14,10 @@ def is_prime(k:  int) -> Tuple[bool, str]:
         return False, f"{k} is not a prime number, it's less than 2."
     if k > 2:
         if k % 2 == 0:
-            return False, f"{k} is not a prime number, it's divisible by 2."
+            return False, f"{k} is not a prime number, it's divisible by 2.****"
         for i in range(3, int(k**0.5 + 1), 2):
             if k % i == 0:
-                return False, f"{k} is not a prime number, it's divisible by {i}."
+                return False, f"{k} is not a prime number, it's divisible by {i}.***"
     return True, f"Yes, {k} is a prime number."
 
 
